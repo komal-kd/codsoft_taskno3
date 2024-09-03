@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+#Cal{
+border: 1px solid rgb(187,183,183);
+border-radius: 5px;
+width: 200px;
+text-align: center;
+margin-top: 100px;
+background-color: aquamarine;
+box-sizing: 20px 5px rgb(39, 37, 37) ;
+}
+#display{
+    margin: 10px;
+    width: 173px;
+    font-size: 30px;
+    background-color: burlywood;
+}
+.key-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    }
+    .key{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    background-color: rosybrown;
+    }
